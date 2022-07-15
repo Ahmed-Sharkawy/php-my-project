@@ -21,8 +21,9 @@
 											<th></th>
 											<th>Photo</th>
 											<th>Name</th>
-											<!-- <th>Price</th> -->
+											<th>Price</th>
 											<th width="20%">Quantity</th>
+											<th>Price</th>
 											<th>Status</th>
 										</thead>
 										<tbody id="tbody">
