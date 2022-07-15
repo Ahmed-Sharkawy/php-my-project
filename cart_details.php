@@ -53,7 +53,7 @@
 			$output .= "
 				<tr>
 					<td colspan='5' align='right'><b>Total</b></td>
-					<td><b>&#8377; ".number_format($total, 2)."</b></td>
+					<td><b>&#8377; " . number_format($total, 2)."</b></td>
 				<tr>
 			";
 
@@ -92,7 +92,7 @@
 						<td>&#36; ".number_format($subtotal, 2)."</td>
 					</tr>
 				";
-				
+
 			}
 
 			$output .= "
@@ -110,7 +110,7 @@
 				<tr>
 			";
 		}
-		
+
 	}
 
 	$pdo->close();
